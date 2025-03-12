@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: "Dancing Script", cursive;
+    background-image: url(recipies/media/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+.title{  
+font-size: 50px;
+display: flex;
+margin: 20px;
+padding: 5px;
+justify-content: center;
+color: rgb(238, 185, 10);
+text-shadow: 3px 3px 10px black;
+
+
+
+}
+
+
+.recipies{
+    position: relative;
+    top: 200px;
+}
+
+
+.recipies li img {
+
+    box-shadow: 5px 10px 26px black;
+}
+
+.recipies a{
+    text-decoration: none;
+}
+
+.recipies ul{   
+    padding: 5px;
+    margin: 10px;
+    display: flex;
+    gap: 45px;
+    justify-content: center;
+    align-items: center;
+     
+}
+
+
+.recipies span{
+
+font-size: 30px;
+color: whitesmoke;
+box-shadow: 5px 5px 37px black inset;
+display: flex;
+justify-content: center;
+align-items: center;
+margin: 10px;
+
+
+
+
+}
+
+
+
+
+.recipies img{
+    width: 250px; 
+    height: 250px;
+    border: 2px black solid;
+}
+
+.recipies img:hover{
+transform: scale(1.06);
+filter: brightness(60%);
+border: 4px solid black;
+
+}
+
+.recipies ul{
+
+   list-style: none;
+}
