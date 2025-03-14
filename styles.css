@@ -75,6 +75,7 @@ margin: 10px;
     width: 250px; 
     height: 250px;
     border: 2px black solid;
+    transition:all 0.3s ease;
 }
 
 .recipies img:hover{

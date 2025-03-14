@@ -1,0 +1,116 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap');
+
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(recipies/media/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    box-sizing: border-box;
+}
+
+.wrapper{
+ margin: 15px auto;
+ padding: 10px;   
+display: flex;
+justify-content:space-between;
+
+
+
+}
+
+.block{
+    margin: 10px;
+    padding: 20px;
+    
+}
+
+
+
+
+.r_title{  
+    font-family: "Dancing Script", cursive;
+    font-size: 50px;
+    margin: 20px;
+    padding: 5px;
+    color: rgb(233, 166, 90);
+    text-shadow: 3px 3px 10px black;
+    }
+
+.r_img img{
+    width: 400px;
+    height:430px;
+    border: 2px solid black;
+    box-shadow: 5px 5px 10px black;
+    border-radius: 10px;
+
+} 
+
+.r_img{
+    margin: 15px;
+    width: 400px;
+    height:430px;
+}
+
+
+#font h2{
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+}
+
+
+#font{
+    color: rgb(243, 243, 243);
+    text-shadow: 3px 3px 10px black;
+    font-size: 25px
+}
+
+li{
+    margin: 10px;
+}
+
+
+
+.r_home a{
+
+    background-color: rgb(94, 39, 3);
+    font-size: 35px;
+    text-decoration: none;
+    color:black;
+    padding: 10px;
+    display: inline-blocks;
+    border: 3px black solid;
+    border-radius: 10px;
+    transition:all 0.3s ease;
+    box-shadow: 5px 5px 10px black;
+ 
+}
+
+.r_home a:hover{
+color: white;
+border: 3px rgb(255, 255, 255) solid;
+background-color: rgb(53, 31, 3);
+
+
+}
+
+
+.r_ingr{
+    margin: 10px;
+    padding: 20px;
+
+}
+
+.r_steps{
+    margin: 10px;
+    padding: 20px;
+}
